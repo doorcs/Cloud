@@ -18,7 +18,7 @@
 
 <details>
   <summary>오류??</summary><br>
-  인스턴스 생성 시 다운받은 키 페어의 접근 권한은 기본적으로 744(owner: rwx, group: r-x, others: r-x)입니다.<br><br>
+  인스턴스 생성 시 다운받은 키 페어의 접근 권한은 기본적으로 755(owner: rwx, group: r-x, others: r-x)입니다.<br><br>
   키 파일의 접근 권한이 너무 개방적일 경우 ssh에서 연결을 거부하기 때문에, <code>chmod 400 {키 페어 경로}</code> 를 통해 pem 파일의 접근 권한을 변경해줘야 합니다.
   <img src="images/2_06.png"><br> <!-- 에러화면 -->
   <img src="images/2_07.png"><br> <!-- chmod -->
